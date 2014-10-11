@@ -1,6 +1,26 @@
 
-./calc.hs,22
-module Calc Calc0,1
+./calc.hs,478
+module Calc Calc4,5
+eval eval10,11
+eval eval11,12
+evalStr evalStr15,16
+evalStr evalStr16,17
+class Expr Expr20,21
+class Expr Expr20,21
+  lit lit21,22
+  add add22,23
+  mul mul23,24
+instance instance25,26
+reify reify30,31
+reify reify31,32
+newtype MinMax MinMax43,44
+newtype MinMax = MinMax MinMax43,44
+newtype Mod7 Mod744,45
+newtype Mod7 = Mod7 Mod744,45
+testExp testExp56,57
+testExp testExp57,58
+compile compile64,65
+compile compile65,66
 
 ./ExprT.hs,100
 data ExprT ExprT2,3
