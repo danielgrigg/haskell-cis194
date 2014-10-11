@@ -1,26 +1,36 @@
 
-./calc.hs,478
+./calc.hs,756
 module Calc Calc4,5
-eval eval10,11
 eval eval11,12
-evalStr evalStr15,16
+eval eval12,13
 evalStr evalStr16,17
-class Expr Expr20,21
-class Expr Expr20,21
-  lit lit21,22
-  add add22,23
-  mul mul23,24
-instance instance25,26
-reify reify30,31
+evalStr evalStr17,18
+class Expr Expr21,22
+class Expr Expr21,22
+  lit lit22,23
+  add add23,24
+  mul mul24,25
+instance instance26,27
 reify reify31,32
-newtype MinMax MinMax43,44
-newtype MinMax = MinMax MinMax43,44
-newtype Mod7 Mod744,45
-newtype Mod7 = Mod7 Mod744,45
-testExp testExp56,57
+reify reify32,33
+newtype MinMax MinMax44,45
+newtype MinMax = MinMax MinMax44,45
+newtype Mod7 Mod745,46
+newtype Mod7 = Mod7 Mod745,46
 testExp testExp57,58
-compile compile64,65
+testExp testExp58,59
 compile compile65,66
+compile compile66,67
+class HasVars HasVars68,69
+class HasVars HasVars68,69
+  var var69,70
+data VarExprT VarExprT71,72
+data VarExprT = VLit VLit71,72
+           | Var Var72,73
+           | VAdd VAdd73,74
+           | VMul VMul74,75
+withVars withVars97,98
+withVars withVars100,101
 
 ./ExprT.hs,100
 data ExprT ExprT2,3
