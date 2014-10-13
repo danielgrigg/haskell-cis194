@@ -1,0 +1,108 @@
+
+./Buffer.hs,206
+class Buffer Buffer5,6
+class Buffer Buffer5,6
+  toString toString8,9
+  fromString fromString11,12
+  line line15,16
+  replaceLine replaceLine20,21
+  numLines numLines23,24
+  value value27,28
+
+./Editor.hs,1142
+data Command Command20,21
+data Command = ViewView20,21
+             | EditEdit21,22
+             | Load Load22,23
+             | Line Line23,24
+             | NextNext24,25
+             | PrevPrev25,26
+             | QuitQuit26,27
+             | HelpHelp27,28
+             | NoopNoop28,29
+commands commands31,32
+commands commands32,33
+newtype Editor Editor36,37
+newtype Editor b a = Editor Editor36,37
+runEditor runEditor39,40
+runEditor runEditor40,41
+getCurLine getCurLine42,43
+getCurLine getCurLine43,44
+setCurLine setCurLine45,46
+setCurLine setCurLine46,47
+onBuffer onBuffer48,49
+onBuffer onBuffer49,50
+getBuffer getBuffer51,52
+getBuffer getBuffer52,53
+modBuffer modBuffer54,55
+modBuffer modBuffer55,56
+io io57,58
+io io58,59
+readMay readMay62,63
+readMay readMay63,64
+editor editor69,70
+editor editor70,71
+prompt prompt75,76
+prompt prompt76,77
+getCommand getCommand80,81
+getCommand getCommand81,82
+doCommand doCommand90,91
+doCommand doCommand91,92
+inBuffer inBuffer136,137
+inBuffer inBuffer137,138
+modCurLine modCurLine141,142
+modCurLine modCurLine142,143
+
+./Fibonacci.hs,674
+module Fibonacci Fibonacci0,1
+fib fib2,3
+fib fib3,4
+fibs1 fibs17,8
+fibs1 fibs18,9
+fibs2 fibs210,11
+fibs2 fibs211,12
+data Stream Stream14,15
+data Stream a = Cons Cons14,15
+streamToList streamToList16,17
+streamToList streamToList17,18
+instance instance19,20
+streamRepeat streamRepeat22,23
+streamRepeat streamRepeat23,24
+streamMap streamMap25,26
+streamMap streamMap26,27
+streamFromSeed streamFromSeed28,29
+streamFromSeed streamFromSeed29,30
+nats nats31,32
+nats nats32,33
+interleaveStreams interleaveStreams34,35
+interleaveStreams interleaveStreams35,36
+ruler ruler38,39
+ruler ruler39,40
+rulern rulern41,42
+ruler' ruler'44,45
+
+./knapsack.hs,107
+module Knapsack Knapsack0,1
+knapsack01 knapsack014,5
+knapsack01 knapsack018,9
+example example22,23
+
+./Sized.hs,190
+newtype Size Size5,6
+newtype Size = Size Size5,6
+getSize getSize8,9
+getSize getSize9,10
+class Sized Sized11,12
+class Sized Sized11,12
+  size size12,13
+instance instance14,15
+
+./StringBufEditor.hs,37
+module Main Main0,1
+main main5,6
+
+./StringBuffer.hs,115
+module StringBuffer StringBuffer1,2
+instance instance7,8
+safeIndex safeIndex17,18
+safeIndex safeIndex18,19
